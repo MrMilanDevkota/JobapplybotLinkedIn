@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+selenium
+webdriver-manager
+python-dotenv
+pydantic
+pydantic-settings
+langchain-google-genai
