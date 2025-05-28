@@ -25,7 +25,7 @@ class ResumeManager:
                         "email": self.LINKEDIN_EMAIL,
                         "phone": self.PHONE_NUMBER,
                         "address": "Your Address",
-                        "linkedin": f"https://www.linkedin.com/in/your-profile", # Update this
+                        "linkedin": "https://www.linkedin.com/in/your-profile", # Update this
                         "website": self.USER_WEBSITE
                     },
                     "education": [

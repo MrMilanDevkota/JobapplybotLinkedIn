@@ -19,19 +19,4 @@ class LLMController:
         )
         return llm
     
-    def get_llm_instance(self):
-        """Returns the initialized LLM instance."""
-        return self.llm
 
-    # You can add more LLM-related methods here, e.g., for generating cover letters
-    def generate_cover_letter_intro(self, job_title, company, skills):
-        prompt_template = PromptTemplate(
-            template=(
-                "Write a concise introduction for a cover letter for a {job_title} position "
-                "at {company}. Highlight that I possess {skills} and am eager to contribute."
-            ),
-            input_variables=["job_title", "company", "skills"]
-        )
-        prompt = prompt_template.format(job_title=job_title, company=company, skills=skills)
-        response = self.llm.invoke(prompt)
-        return response

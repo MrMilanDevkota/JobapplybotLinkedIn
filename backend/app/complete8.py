@@ -1,9 +1,7 @@
 import os
 import json
-import pickle
 import time
 import random
-import re
 from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -273,7 +271,7 @@ def load_resume_data():
                     "email": LINKEDIN_EMAIL,
                     "phone": PHONE_NUMBER,
                     "address": "Your Address",
-                    "linkedin": f"https://www.linkedin.com/in/your-profile",
+                    "linkedin":"https://www.linkedin.com/in/your-profile",
                     "website": USER_WEBSITE
                 },
                 "education": [
